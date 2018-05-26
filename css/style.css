@@ -529,12 +529,25 @@ font-family: HiraginoSansw6;
 select{
   background-color: white;
   border:none;
-  padding: 20px 0;
+  height: 50px;
   background-repeat: no-repeat;
   background-position: right;
+  color: #9f9f9f;
 }
-select:first-child{
-  padding-right: 30px;
+select{
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  font-family: HiraginoSansw6;
+  margin-right: 10px;
+}
+select+span{
+  font-family: HiraginoSansw6;
+}
+#select_1{
+  width: 60%;
+}
+#select_2{
+  width: 20%;
 }
 textarea{
   padding-top: 10px;
@@ -544,7 +557,45 @@ textarea{
     margin-top: 10px;
 }
 .section-09{
-  padding-bottom: 40px;
+  padding-bottom: 15px;
+}
+.section-09 button{
+  background-color: #429292;
+  color: white;
+  width: 300px;
+  height: 60px;
+  margin: 0 auto!important;
+  display: block;
+  margin-top: 40px!important;
+  border-radius: 35px;
+  font-size: 16px;
+}
+#gmap+div{
+  background-color: #429292;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  font-family: HiraginoSansw2;
+
+}
+#gmap+div p:nth-child(2){
+  margin-top: 40px;
+}
+#gmap+div p{
+  font-family: HiraginoSansw4;
+
+}
+#gmap+div address{
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+#gmap{
+  height: 200px;
+}
+footer{
+  text-align: center;
+  padding: 30px;
 }
 }
 

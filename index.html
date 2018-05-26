@@ -280,7 +280,7 @@
     </section>
     <section class="section-09">
       <div class="">
-        <div class="primary_heading mb-3">
+        <div class="primary_heading">
           <p>Applying free session</p>
           <h2>体験申し込みフォーム</h2>
           <p>まずは体験から始めましょう</p>
@@ -305,11 +305,11 @@
             </div>
             <div>
               <label for="希望日時">希望日時<span>必須</span></label>
-              <select name="" id="" class="mt-1">
+              <select name="" id="select_1" class="mt-1">
               <option value="希望日を選択してください">希望日を選択してください</option>
               <option value="希望日を選択してください">希望日を選択してください</option>
             </select>
-              <select name="" id="">
+              <select name="" id="select_2">
               <option value="希望時間">希望時間</option>
               <option value="希望時間">希望時間</option>
             </select>
@@ -326,15 +326,17 @@
       </div>
     </section>
     <section>
-      <div class="gmap"></div>
-      <div class="container">
-        <p><img src="images/logo.png" alt=""></p>
-        <p>グリーン・ジム 西麻布店</p>
-        <p>03-6277-6997</p>
-        <address class="">
-          〒106-0044 東京都港区 東麻布3-8-7-8F
-六本木駅 徒歩20秒
-        </address>
+      <div id="gmap"></div>
+      <div>
+        <div class="container">
+          <p><img src="images/logo.png" alt=""></p>
+          <p>グリーン・ジム 西麻布店</p>
+          <p>03-6277-6997</p>
+          <address class="">
+            〒106-0044 東京都港区 東麻布3-8-7-8F <br>
+  六本木駅 徒歩20秒
+          </address>
+        </div>
       </div>
       <footer class="container">
         <p>会社概要｜個人情報取扱いについて <br> Glean-Gym ALL RIGHTS RESERVED</p>
@@ -342,6 +344,7 @@
     </section>
   </main>
   <script src="js/script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 </body>
 
 </html>
