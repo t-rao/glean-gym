@@ -771,8 +771,9 @@ footer{
 font-size: 14px;
 }
    .hero_bg {
-    background-size: cover;
-    height: 600px;
+     background-size: 117%;
+ height: 600px;
+ background-position: -115px -56px;
 }
 
 .hero_bg h3{
@@ -949,6 +950,9 @@ width: 250px;
     width: 20%;
     margin-top: 65px;
     transform: rotate(-94deg);
+}
+.hero_bg_02{
+  background-position: 0px -562px;
 }
 }
 input:focus {
