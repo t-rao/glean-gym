@@ -323,7 +323,7 @@ font-family: HiraginoSansw6;
 .balck-cd-grid{
 display: grid;
 grid-template-rows: repeat(4, 1fr);
-margin-top: 10px;
+margin-top: 70px;
 grid-row-gap: 10px;
 }
 .balck-cd-grid li{
@@ -600,6 +600,12 @@ footer{
 .sp{
   display: block;
 }
+.section-05{
+  margin-top: 740px;
+}
+.voice-text p:last-child{
+  font-family: HiraginoSansw2;
+}
 }
 
 @media only screen and (min-width: 370px){
@@ -639,7 +645,7 @@ footer{
 .balck-cd-grid{
   width: 80%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 80px;
 }
 .pc{
   display: none
@@ -677,6 +683,7 @@ footer{
 
 .nuk-card-grid p{
   width: 100%;
+  font-size: 16px;
 }
 .inner-card-cir-grid{
   display: grid;
@@ -691,10 +698,16 @@ footer{
     width: 100%;
   /* margin: 0 auto; */
 }
+.voice-text p:last-child{
+  font-size: 16px;
+}
 .card-cir-img {
     width: 160px;
     margin: 0 auto;
     margin-top: 40px;
+}
+.trai-text p{
+  font-size: 16px;
 }
 .sp{
   display: block;
@@ -792,15 +805,21 @@ font-size: 14px;
 .section-01 p{
   width: 100%;
   margin-bottom: 60px;
+  font-size: 16px;
 }
 .section-02 p{
   width: 100%;
+  font-size: 16px;
 }
 .section-03 .price_container{
   display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
     width: 90%;
     height: 200px;
+}
+.pricetag{
+  grid-column: 3/5;
+text-align: right;
 }
 .price_container+p{
   width: 90%
@@ -827,7 +846,7 @@ height: 402px!important;
   .balck-cd-grid {
     width: 100%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
 }
 .balck-cd-grid li {
@@ -852,6 +871,7 @@ height: 402px!important;
 }
 .section-05 p{
   width: 100%;
+  font-size: 16px;
 }
 .nuk-card-grid {
     display: grid;
@@ -884,7 +904,66 @@ grid-row: 1/1;
 .card-img-trai{
   width: 250px;
 }
+.card-cir-grid{
+  width: 80%;
+  margin: 0 auto;
 }
+.form-container {
+  background-color: white;
+
+}
+.gray_form_container{
+  width: 60%;
+  margin: 0 auto;
+  background-color: #ececec;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+}
+.form-container input{
+  width: 60%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.section-05{
+  margin-top: 254px;
+}
+
+.price_container p:first-child{
+  font-size: 33px;
+margin-top: 24px;
+width: 250px;
+}
+.pricetag h2{
+  font-size: 60px;
+}
+.pricetag p{
+  font-size: 18px;
+}
+.pricetag span {
+    font-size: 22px;
+  }
+  .price_container p:first-child+p img {
+    width: 20%;
+    margin-top: 65px;
+    transform: rotate(-94deg);
+}
+}
+input:focus {
+  padding-left: 20px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  font-family: HiraginoSansw6;
+}
+textarea:focus{
+  padding-left: 10px;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  font-family: HiraginoSansw6;
+}
+
 
 @media only screen and (min-width: 1200px) {
 
